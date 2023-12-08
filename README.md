@@ -3,7 +3,7 @@ SlothAI is an Open Source system designed for asynchronous AI inferences, with a
 
 SlothAI is designed for speed.
 
-<img src="https://github.com/FeatureBaseDB/SlothAI/blob/SlothAI/SlothAI/static/sloth.png?raw=true" width="240"/>
+<img src="https://raw.githubusercontent.com/kordless/SlothAI/SlothAI/SlothAI/static/images/sloth.png?raw=true" width="240"/>
 
 In SlothAI, pipelines are built with templates and nodes that transform data fields sent to the pipeline. These nodes supports deserialization of calls to AI models, which greatly increase the speed of indexing and querying large amounts of data.
 
@@ -42,7 +42,7 @@ Query pipelines extend this concept, where data enters through POST requests and
 ### Sample Ingestion Graph
 The following graph outlines a typical RAG-based *ingestion pipeline* for data which extracts keyterms, embeds the text and keyterms together, then forms a question about the text and keyterms using GPT-3.5-turbo. The results are saved into FeatureBase for query interactions:
 
-<img src="https://raw.githubusercontent.com/FeatureBaseDB/SlothAI/SlothAI/SlothAI/static/graph.png" width="360"/>
+<img src="https://github.com/kordless/SlothAI/blob/SlothAI/SlothAI/static/images/pipeline_graph.png" width="360"/>
 
 ## Development Notes
 * Processor support for reading text or PDFs, audio files, image files, or use of custom data models.
